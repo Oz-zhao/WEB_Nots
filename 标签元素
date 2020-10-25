@@ -1,9 +1,12 @@
+HTML常用标签
+<div>这是头部</div>
+<span>今日价格</span>
+
 HTML 标题
  定义标题开始文件
  <h1>This is a heading</h1> // 有<h2><h3>......
  <h1 align="center"> //拥有关于对齐方式的附加信息。
  <h1 align="center">This is heading 1</h1>   //定义标签居中
- 
  
 HTML 段落
 <p>This is a paragraph.</p>
@@ -11,7 +14,7 @@ HTML 段落
 HTML 链接
 <a href="oz.zhao@hotmail.com">oz.zhao@hotmail.com</a>
 
-HTML 图像司
+HTML 图像
 <img src="10.jpg" width="104" height="142" />
 
 HTML文档
@@ -29,3 +32,8 @@ HTML 折行
 <br />
 <p>This is<br />a para<br />graph with line breaks</p>
 
+HTML文本格式化
+<strong>......</strong>或者<b></b>  //加粗
+<i>.....</i>或者<em>.....</em>  //斜体
+<del>.......</del>或者<s>........</s>   //删除线
+<ins>.......</ins>或者<u>.......</u>   //下划线
