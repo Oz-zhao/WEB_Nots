@@ -1,0 +1,78 @@
+1、标签选择器
+    <style>
+        p {
+            color: brown;
+            font-size: 20px;
+        }
+        div {
+            color: brown;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<p id="id0021">hello world</p>
+<div id="">my web</div>
+</body>
+</html>
+==============================================================
+2、id选择器
+<head>
+    <meta charset="UTF-8">
+    <title>id选择器</title>
+    <style type="text/css">
+        #id001{
+            color: red;
+            font-size: 20px;
+            border: 1px yellow solid;
+        }
+        #id002{
+            color: blueviolet;
+            font-size: 20px;
+            border: 1px blue solid;
+        }
+    </style>
+
+</head>
+
+<body>
+<div id="id001">标签</div>
+<span id="id002">标签</span>
+</body>
+==============================================================
+3、class选择器
+ <style>
+        .blue{
+            color: #d018b2;
+        }
+    </style>
+</head>
+<body>
+<p class="blue">hello world</p>
+<div class="blue">my web</div>
+=========================================================
+4、多类名使用
+ <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            font-size: 40px;
+        }
+        .red{
+            background: mediumvioletred;
+        }
+        .bule {
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+ <div class="red  box">红色</div>
+<div class="bule  box">蓝色</div>
+<div class="red  box">红色</div>
+=========================================================
+通配符选择器
+* {
+   color：red；
+}
+命名所有的标签个=和元素全部定义为红色；
